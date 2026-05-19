@@ -1,0 +1,391 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Hey Nova",
+        "Salam",
+        "Assalam o Alaikum",
+        "Good morning",
+        "Good afternoon",
+        "Walaikum assalam",
+        "nova",
+        "who are you",
+        "what is nova",
+        "aap kaun hain",
+        "nova kaun hai",
+        "tum kaun ho",
+        "ap kon ho",
+        "nova kya hai",
+        "nova ap kon ho"
+      ],
+      "responses_en": [
+          "Hello! I am Nova, your student assistant at GSCWU Bahawalpur. I can help you with Admissions, Fee Structure, Timetable, Departments, and Teacher Contacts. What would you like to know?",
+        "Hi! Welcome to GSCWU Bahawalpur. Ask me anything about admissions, fees, timetable, departments or teacher contacts."
+      ],
+      "responses_ur": [
+        "Assalam o Alaikum! Main Nova hoon, GSCWU Bahawalpur ka Student Assistant. Admissions, Fee Structure, Timetable, Departments aur Teachers ke baare mein pooch sakte hain.",
+        "Walaikum Assalam! Main Nova hoon. Admissions, fees, timetable, departments ya teachers ke baare mein kuch bhi poochh sakte hain."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Khuda Hafiz",
+        "Allah Hafiz",
+        "Thanks bye",
+        "alvida",
+        "band karo",
+        "That is all"
+      ],
+      "responses_en": [
+        "Goodbye! If you have more questions, I am always here. Good luck with your studies!",
+        "Take care! Come back anytime you need help."
+      ],
+      "responses_ur": [
+        "Allah Hafiz! Dobara koi sawaal ho to zaroor aayein.",
+        "Khuda Hafiz! Best of luck!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Shukriya",
+        "Jazak Allah",
+        "Thank you so much",
+        "Thanks a lot",
+        "Bohot shukriya",
+        "bahut shukriya",
+        "thanks nova",
+        "jazakallah"
+      ],
+      "responses_en": [
+        "You are most welcome! Is there anything else I can help you with?",
+        "Happy to help! Feel free to ask if you have more questions."
+      ],
+      "responses_ur": [
+        "Jazak Allah Khair! Aur kuch poochna ho to zaroor batayein.",
+        "Shukriya! Aur koi sawaal ho to main haazir hoon."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "What can you do",
+        "Help",
+        "guide me",
+        "what topics",
+        "What information do you have",
+        "How do I use this",
+        "kya bata sakte ho",
+        "mujhe kya poochna chahiye",
+        "kaise use karun"
+      ],
+      "responses_en": [
+        "I can help you with:\n\n1. Admissions — eligibility, documents, deadlines\n2. Fee Structure — program fees, payment schedule\n3. Timetable — class schedule, exam dates\n4. Departments — info about all departments\n5. Teacher Contacts — faculty names, emails, office hours\n\nJust type your question!"
+      ],
+      "responses_ur": [
+        "Main in topics mein madad kar sakta hoon:\n\n1. Admissions - eligibility, documents, deadlines\n2. Fee Structure - fees, payment schedule\n3. Timetable - class schedule, exam dates\n4. Departments - sare departments ki info\n5. Teacher Contacts - faculty details\n\nBas apna sawaal type karein!"
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "How do I apply for admission",
+        "eligibility requirements",
+        "documents needed for admission",
+        "When does admission start",
+        "admission process",
+        "How to get admission",
+        "admission",
+        "admission kaise hogi",
+        "admission process kya hai",
+        "merit calculated",
+        "Merit list",
+        "last date for admission",
+        "Admission deadline",
+        "admission ke liye kya chahiye",
+        "admission documents",
+        "merit kitna chahiye",
+        "daakhla kaise hoga",
+        "university mein admission",
+        "BS CS mein admission",
+        "admission last date",
+        "kab admission hoti hai",
+        "apply kaise karen",
+        "admission kb khulti hai",
+        "apply for admission at GSCWU"
+      ],
+      "responses_en": [
+        "Admissions at GSCWU Bahawalpur:\n\nAdmissions open in July each year.\n\nEligibility:\n- Matric minimum 45% marks\n- Intermediate minimum 45% marks\n\nRequired Documents:\n1. Matric certificate and mark sheet\n2. Intermediate certificate and mark sheet\n3. Completed admission form\n4. 2 passport size photographs\n5. CNIC or B-Form copy\n6. Domicile certificate\n\nMerit is based on Intermediate marks percentage.\n\nAdmission Office: Block A, Main Campus\nPhone: 0629-2880012 (Mon-Fri, 9am-4pm)",
+        "How to Apply at GSCWU:\n\n1. Collect admission form from Admission Office\n2. Fill all details and attach documents\n3. Submit before the closing date\n4. Merit list is displayed after 2 weeks\n5. Complete enrollment and deposit fee if selected\n\nPhone: 0629-2880012"
+      ],
+      "responses_ur": [
+        "GSCWU mein Admission:\n\nAdmissions aksar July mein khulti hain.\n\nEligibility:\n- Matric minimum 45% marks\n- Intermediate minimum 45% marks\n\nZaruri Documents:\n1. Matric certificate aur mark sheet\n2. Inter certificate aur mark sheet\n3. Admission form\n4. 2 passport size photos\n5. CNIC ya B-Form copy\n6. Domicile certificate\n\nMerit Intermediate marks par hoti hai.\n\nContact: Admission Office, Block A\nPhone: 0629-2880012",
+        "Apply kaise karein:\n1. Admission form Office se len\n2. Sahi bhar ke documents attach karein\n3. Deadline se pehle jama karein\n4. Merit list 2 hafte baad\n5. Selection par fee jama karein\n\nContact: 0629-2880012"
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "fee structure",
+        "fee",
+        "fees",
+        "How much is the fee",
+        "Fee kitni hai",
+        "annual fee",
+        "BS Computer Science fee",
+        "BS IT fee",
+        "tuition fee",
+        "Semester fee",
+        "fee kab jama",
+        "installment",
+        "fee details",
+        "CS ki fee",
+        "IT ki fee",
+        "fee batao",
+        "kitni fee hai",
+        "total fee",
+        "fee kya hai",
+        "fees kya hain",
+        "program ki fee",
+        "fee structure for BS Computer Science",
+        "what is the fee structure"
+      ],
+      "responses_en": [
+        "Fee Structure at GSCWU Bahawalpur (2024-2025):\n\nBS Computer Science / BS IT:\n- Annual Fee: PKR 45,000\n- Per Semester: PKR 22,500\n- Paid in 2 installments\n\nBS Mathematics / Physics / Chemistry:\n- Annual Fee: PKR 35,000\n\nBS Education / BA / BCom:\n- Annual Fee: PKR 25,000\n\nPayment Schedule:\n- 1st Installment: September\n- 2nd Installment: February\n- Late penalty: PKR 500/week\n\nFinance Office: 0629-2880014",
+        "GSCWU Program Fees:\n\nBS CS / IT: PKR 45,000/year\nBS Science programs: PKR 35,000/year\nArts / Commerce: PKR 25,000/year\n\nFees are paid in 2 equal installments per year.\nContact Finance Office: 0629-2880014"
+      ],
+      "responses_ur": [
+        "GSCWU Fee Structure 2024-2025:\n\nBS CS / BS IT:\n- Salana Fee: PKR 45,000\n- Semester Fee: PKR 22,500\n- 2 installments mein ada hoti hai\n\nBS Math / Physics / Chemistry:\n- Salana Fee: PKR 35,000\n\nBS Education / BA / BCom:\n- Salana Fee: PKR 25,000\n\nPayment:\n- 1st Installment: September\n- 2nd Installment: February\n- Late penalty: PKR 500/week\n\nFinance Office: 0629-2880014",
+        "Fees:\n\nBS CS / IT: PKR 45,000 salana\nBS Science: PKR 35,000 salana\nArts / Commerce: PKR 25,000 salana\n\n2 equal installments mein ada hoti hai.\nFinance Office: 0629-2880014"
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "scholarship",
+        "fee concession",
+        "Fee mafi",
+        "Financial aid",
+        "wazifa",
+        "scholarship kaise milegi",
+        "HEC scholarship",
+        "government scholarship",
+        "fee waiver",
+        "fee mein chhoot",
+        "scholarship chahiye",
+        "is there any scholarship"
+      ],
+      "responses_en": [
+        "Scholarships at GSCWU Bahawalpur:\n\n1. Merit-Based Scholarship:\n   - Top 3 students per department\n   - 50% to 100% fee waiver\n   - Requires CGPA 3.5 or above\n\n2. Need-Based Scholarship:\n   - For financially deserving students\n   - Covers 25% to 75% of semester fee\n   - Submit income certificate to Student Affairs\n\n3. HEC Scholarships:\n   - Apply at: hec.gov.pk/scholarships\n\nApply at Student Affairs Office, Block A\nEmail: studentaffairs@gscwu.edu.pk"
+      ],
+      "responses_ur": [
+        "GSCWU Scholarships:\n\n1. Merit-Based: Top 3 students ko 50-100% fee waiver (CGPA 3.5+)\n2. Need-Based: Maaliyati tor par kamzor students ke liye 25-75% fee cover\n3. HEC Scholarships: hec.gov.pk/scholarships\n\nApply: Student Affairs Office, Block A\nEmail: studentaffairs@gscwu.edu.pk"
+      ]
+    },
+    {
+      "tag": "timetable",
+      "patterns": [
+        "timetable",
+        "class schedule",
+        "schedule",
+        "class timetable",
+        "4th semester timetable",
+        "3rd semester schedule",
+        "CS timetable",
+        "IT timetable",
+        "class timings",
+        "lecture timings",
+        "classes kb hain",
+        "class schedule kya hai",
+        "timetable batao",
+        "kab class hai",
+        "schedule batao",
+        "CS ka timetable",
+        "show me the class timetable",
+        "show me the class timetable for CS department",
+        "class timetable for CS"
+      ],
+      "responses_en": [
+        "Class Timetable — BS CS 4th Semester (Sample):\n\nClasses: Monday to Friday, 8:00 AM to 2:00 PM\n\nMonday: Data Structures 8:00-9:30 (CS-201), Computer Networks 10:00-11:30 (CS-202)\nTuesday: Operating Systems 8:00-9:30, CS Lab 11:00-1:00 (Lab 1)\nWednesday: Software Engineering 8:00-9:30 (CS-202)\nThursday: OS Lab 9:00-11:00 (CS Lab 2)\nFriday: Software Engineering 10:00-11:30\n\nFor your exact timetable, check the Notice Board at Block C or ask your Class Representative.",
+        "Class Timings at GSCWU:\n\n- Morning Shift: 8:00 AM to 2:00 PM\n- Lecture Duration: 1 hour 30 minutes\n- Break: 11:30 AM to 12:00 PM\n\nTimetables are posted on the Notice Board each semester.\nCS Department Office: Block C"
+      ],
+      "responses_ur": [
+        "BS CS 4th Semester Timetable (Sample):\n\nClasses: Monday se Friday, 8:00 AM - 2:00 PM\n\nMonday: Data Structures 8-9:30 (CS-201), Computer Networks 10-11:30 (CS-202)\nTuesday: OS 8-9:30, CS Lab 11-1 (Lab 1)\nWednesday: Software Eng 8-9:30 (CS-202)\nThursday: OS Lab 9-11 (CS Lab 2)\nFriday: Software Eng 10-11:30\n\nApna exact timetable Notice Board (Block C) par check karein.",
+        "Class Timings:\n- Morning Shift: 8:00 AM - 2:00 PM\n- Break: 11:30 AM - 12:00 PM\n\nTimetable har semester Notice Board par lagaya jaata hai.\nCS Office: Block C"
+      ]
+    },
+    {
+      "tag": "exam_timetable",
+      "patterns": [
+        "final exams",
+        "exam schedule",
+        "exam timetable",
+        "Midterm",
+        "paper kab",
+        "imtihan",
+        "exams kab",
+        "papers kab hain",
+        "midterm schedule",
+        "test schedule",
+        "exams",
+        "when are the exams"
+      ],
+      "responses_en": [
+        "Examination Schedule at GSCWU:\n\nMidterm Exams:\n- Week 8 of semester (November or April)\n- Duration: 1 hour per paper\n\nFinal Exams:\n- End of semester (December/January)\n- Duration: 3 hours per paper\n\nExam timetable is posted 2 weeks before exams on Notice Boards.\n\nExamination Office: Block A, 2nd Floor\nPhone: 0629-2880015"
+      ],
+      "responses_ur": [
+        "Examination Schedule:\n\nMidterm: Semester ke Week 8 mein (November ya April)\nFinal Exams: Semester ke aakhir mein (December/January)\n\nTimetable exams se 2 hafte pehle Notice Board par lagaya jaata hai.\n\nExamination Office: Block A, 2nd Floor\nPhone: 0629-2880015"
+      ]
+    },
+    {
+      "tag": "department_info",
+      "patterns": [
+        "departments",
+        "department",
+        "Computer Science department",
+        "IT department",
+        "department information",
+        "departments ki list",
+        "university ke departments",
+        "konse departments hain",
+        "departments batao",
+        "all departments",
+        "CS department",
+        "sare departments",
+        "kitne departments hain",
+        "What departments are available at GSCWU",
+        "What departments are available",
+        "which departments are there",
+        "departments available at GSCWU",
+        "list of departments",
+        "available departments",
+        "GSCWU departments",
+        "tell me about departments",
+        "departments at the university"
+      ],
+      "responses_en": [
+        "Departments at GSCWU Bahawalpur:\n\n1. Computer Science and IT (Block C)\n   - BS Computer Science (4 years)\n   - BS Information Technology (4 years)\n\n2. Mathematics (Block B)\n   - BS Mathematics (4 years)\n\n3. Physics (Block B)\n   - BS Physics (4 years)\n\n4. Chemistry (Block D)\n   - BS Chemistry (4 years)\n\n5. English (Block A)\n   - BS English (4 years)\n\n6. Education (Block E)\n   - BS Education (4 years), BEd (2 years)\n\n7. Commerce (Block A)\n   - BCom (2 years)\n\n8. Urdu (Block A)\n   - BS Urdu (4 years)\n\nAsk about any department for more details!",
+        "CS and IT Department — GSCWU Bahawalpur:\n\nPrograms: BS CS, BS IT (4 years each)\nFaculty: 14 qualified teachers (PhD and MS)\nLabs: 3 computer labs, 30 workstations each\nLocation: Block C, Main Campus\nContact: cs@gscwu.edu.pk\nPhone: +92-62-2201765"
+      ],
+      "responses_ur": [
+        "GSCWU ke Departments:\n\n1. CS and IT (Block C) - BS CS, BS IT\n2. Mathematics (Block B) - BS Mathematics\n3. Physics (Block B) - BS Physics\n4. Chemistry (Block D) - BS Chemistry\n5. English (Block A) - BS English\n6. Education (Block E) - BS Education, BEd\n7. Commerce (Block A) - BCom\n8. Urdu (Block A) - BS Urdu\n\nKisi bhi department ki detail chahiye to poochhen!",
+        "CS and IT Department:\n\nPrograms: BS CS, BS IT (4 saal each)\nFaculty: 14 teachers (PhD aur MS)\nLabs: 3 computer labs\nLocation: Block C\nContact: cs@gscwu.edu.pk | +92-62-2201765"
+      ]
+    },
+    {
+      "tag": "teacher_contact",
+      "patterns": [
+        "teacher contact",
+        "faculty",
+        "teachers",
+        "teacher email",
+        "who teaches",
+        "teacher ka contact",
+        "Faculty list",
+        "Teacher office hours",
+        "teacher ki details",
+        "ustad ka number",
+        "sir ka email",
+        "miss ka contact",
+        "HOD",
+        "Head of Department",
+        "professor",
+        "lecturer",
+        "CS teachers",
+        "teacher dhundhna",
+        "I need the contact details of the CS faculty",
+        "contact details of the CS faculty",
+        "contact details of CS faculty",
+        "faculty contact details",
+        "CS faculty contact",
+        "I need contact details",
+        "teacher details",
+        "faculty details",
+        "contact information of teachers",
+        "teacher information",
+        "faculty members",
+        "contact of teachers",
+        "who are the teachers",
+        "who are the faculty members",
+        "who are the professors",
+        "who are the lecturers",
+        "who are the cs teachers",
+        "tell me about the teachers",
+        "list the faculty",
+        "show me the faculty",
+        "teacher list",
+        "faculty list cs department"
+      ],
+      "responses_en": [
+        "CS and IT Faculty — GSCWU Bahawalpur:\n\nHOD\nEmail: hod.cs@gscwu.edu.pk\nOffice: CS-101 | Hours: Mon-Fri 10am-12pm\n\nMr. Ahmed Ali — Data Structures, OOP\nEmail: a.ali@gscwu.edu.pk\nOffice Hours: Mon/Wed 2pm-4pm | Room CS-204\n\nMs. Sara Khan — Software Engineering\nEmail: s.khan@gscwu.edu.pk\nOffice Hours: Tue/Thu 11am-1pm\n\nMr. Usman Raza — Computer Networks\nEmail: u.raza@gscwu.edu.pk\nOffice Hours: Mon/Fri 9am-11am\n\nMs. Ayesha Naz — Database Systems\nEmail: a.naz@gscwu.edu.pk\nOffice Hours: Wed/Thu 2pm-4pm\n\nDepartment Office: Block C, CS-101\nPhone: 0629-2880013\nEmail: cs@gscwu.edu.pk",
+        "How to contact faculty at GSCWU:\n\n1. Email — info@gscwu.edu.pk\n2. Office visit during posted office hours\n3. Department Office — Block C, CS-101\n4. Phone: 0629-2880013\n\nTell me a specific teacher name or subject and I will find their details!"
+      ],
+      "responses_ur": [
+        "CS and IT Faculty:\n\nHOD: hod.cs@gscwu.edu.pk | Office: CS-101 | Hours: Mon-Fri 10-12\n\nMr. Ahmed Ali - Data Structures, OOP\nEmail: a.ali@gscwu.edu.pk | Hours: Mon/Wed 2-4pm\n\nMs. Sara Khan - Software Engineering\nEmail: s.khan@gscwu.edu.pk | Hours: Tue/Thu 11-1pm\n\nMr. Usman Raza - Computer Networks\nEmail: u.raza@gscwu.edu.pk | Hours: Mon/Fri 9-11am\n\nMs. Ayesha Naz - Database Systems\nEmail: a.naz@gscwu.edu.pk | Hours: Wed/Thu 2-4pm\n\nDepartment: 0629-2880013 | cs@gscwu.edu.pk",
+        "Teacher se contact karne ka tarika:\n1. Email: info@gscwu.edu.pk\n2. Office visit during office hours\n3. Department Office: Block C, CS-101\n4. Phone: 0629-2880013\n\nKisi specific teacher ka naam batayein to detail deta hoon!"
+      ]
+    },
+    {
+      "tag": "university_info",
+      "patterns": [
+        "GSCWU",
+        "university",
+        "university ke baare mein",
+        "university kahan hai",
+        "government university",
+        "GSCWU kya hai",
+        "university address",
+        "about GSCWU",
+        "tell me about GSCWU",
+        "tell me about the university"
+      ],
+      "responses_en": [
+        "Government Sadiq College Women University Bahawalpur (GSCWU):\n\n- Type: Public Women University\n- Location: Bahawalpur, Punjab, Pakistan\n- Affiliation: Higher Education Commission (HEC)\n\nPhone: 0629-2880010\nWebsite: gscwu.edu.pk\nEmail: info@gscwu.edu.pk\nOffice Hours: Mon-Fri, 9am-4pm"
+      ],
+      "responses_ur": [
+        "Government Sadiq College Women University Bahawalpur (GSCWU):\n\nPublic Women University, Bahawalpur, Punjab\nHEC Pakistan se affiliated\n\nPhone: 0629-2880010\nWebsite: gscwu.edu.pk\nEmail: info@gscwu.edu.pk"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel",
+        "hostel fee",
+        "hostel available",
+        "accommodation",
+        "kahan rehna",
+        "hostel kaise milega",
+        "hostel ki fees",
+        "is there a hostel",
+        "girls hostel"
+      ],
+      "responses_en": [
+        "Hostel at GSCWU Bahawalpur:\n\nHostel accommodation is available for female students.\n\nFee: Approximately PKR 8,000 to 12,000 per month (meals included)\n\nFacilities: 24/7 security, Dining, Generator backup, Internet, Warden on duty\n\nHow to Apply: Submit application form at Hostel Office (Block H) with admission confirmation and 2 passport photos.\n\nHostel Office: 0629-2880016\nNote: Seats are limited, allocated on merit-cum-need basis."
+      ],
+      "responses_ur": [
+        "GSCWU Hostel:\n\nFemale students ke liye maujood hai.\nFee: PKR 8,000-12,000/month (meals included)\n\nFacilities: Security, Mess, Generator, Internet, Warden\n\nApply: Hostel Office, Block H\nPhone: 0629-2880016\n\nNote: Seats limited hain, merit-cum-need basis par milti hain."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses_en": [
+        "I am sorry, I did not understand that. Please rephrase your question.\n\nI can help with:\n- Admissions\n- Fee Structure\n- Timetable\n- Departments\n- Teacher Contacts\n\nAdmin Office: 0629-2880012\nEmail: info@gscwu.edu.pk",
+        "Sorry, I could not find an answer for that. Try asking about admissions, fees, timetable, departments, or teachers.\n\nOr contact us directly: 0629-2880012"
+      ],
+      "responses_ur": [
+        "Mujhe maafi chahiye, main yeh samajh nahi saka. Kya aap dobara pooch sakte hain?\n\nMain in topics mein madad kar sakta hoon:\n- Admissions\n- Fee Structure\n- Timetable\n- Departments\n- Teacher Contacts\n\nAdmin Office: 0629-2880012 | info@gscwu.edu.pk"
+      ]
+    }
+  ]
+}
